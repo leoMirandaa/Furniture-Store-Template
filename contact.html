@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce - Contact</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="site-name">Furniture <span>Store</spa>
+    </h1>
+  </header>
+
+  <div class="navigation-container">
+    <nav class="main-navigation container">
+      <a href="./index.html">Index</a>
+      <a href="./aboutus.html">About US</a>
+      <a href="./store.html">Store</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main class="main-content container">
+    <h2 class="text-center">Contact</h2>
+
+    <form action="" class="form">
+
+      <fieldset>
+        <legend>Your Data</legend>
+
+        <div class="field">
+          <label for="name">Name: </label>
+          <input id="name" type="text" placeholder="Insert your name" required>
+        </div>
+
+        <div class="field">
+          <label for="subject">subject</label>
+          <input id="subject" type="text" placeholder="Subject" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email: </label>
+          <input id="email" type="email" placeholder="Email">
+        </div>
+
+        <div class="field">
+          <label for="tel">Telephone: </label>
+          <input id="tel" type="tel" placeholder="Telephone">
+        </div>
+
+        <div class="field">
+          <label for="message">Message: </label>
+          <textarea id="message" rows="10" cols="20"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Country</legend>
+
+        <div class="field">
+          <label for="country">Country: </label>
+          <select id="country">
+            <option value="Select one">-- Select one --</option>
+            <option value="MX">Mexico</option>
+            <option value="PR">Peru</option>
+            <option value="CO">Colombia</option>
+            <option value="AR">Argentina</option>
+            <option value="ES">Espana</option>
+            <option value="CL">Chile</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Extra Information</legend>
+
+        <div class="field">
+          <label for="customer">Customer: </label>
+          <input id="customer" type="radio" name="type" value="customer">
+        </div>
+
+        <div class="field">
+          <label for="supplier">Supplier:</label>
+          <input id="supplier" type="radio" name="type" value="supplier">
+        </div>
+
+        <div class="field">
+          <label for="category">Category: </label>
+          <input list="categories" name="categories" type="text">
+          <datalist id="categories">
+            <option value="Kitchen">
+            <option value="Inside">
+            <option value="Outside">
+            <option value="Office">
+            <option value="T.V.">
+          </datalist>
+        </div>
+      </fieldset>
+
+      <input class="btn" type="submit" value="Submit Form">
+    </form>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-footer container">
+      <div>
+        <h3>Categories</h3>
+
+        <nav class="footer-menu">
+          <a href="#">Kitchen</a>
+          <a href="#">Office</a>
+          <a href="#">Garden</a>
+          <a href="#">Garage</a>
+          <a href="#">Bedrooms</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3>About Us</h3>
+
+        <nav class="footer-menu">
+          <a href="#">Our History</a>
+          <a href="#">Mision</a>
+          <a href="#">Vision</a>
+          <a href="#">Values</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3>Support</h3>
+
+        <nav class="footer-menu">
+          <a href="#">Frequently asked questions</a>
+          <a href="#">Online Support</a>
+          <a href="#">Security and Confidence</a>
+        </nav>
+      </div>
+    </div>
+
+    <p class="copyright">All the rights reserved, FurnitureStore</p>
+  </footer>
+
+
+</body>
+
+</html>
